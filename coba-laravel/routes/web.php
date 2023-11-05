@@ -18,7 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        "name" => "leonardo yemi",
+        "email" => "leonardoyemi@gmail.com",
+        "image" => "gambar1.png"
+    ]);
 });
 
 Route::get('/blog', function () {

@@ -7,6 +7,6 @@
   <title>Beruanganeh Blog | Posts</title>
 </head>
 <body>
-        Welcome Posts
+      <h1>Halaman Posts</h1>
 </body>
 </html>

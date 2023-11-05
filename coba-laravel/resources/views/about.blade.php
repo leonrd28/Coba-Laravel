@@ -7,6 +7,6 @@
   <title>Beruanganeh Blog | About</title>
 </head>
 <body>
-       welcome halaman Blog 
+      <h1>halaman About</h1>
 </body>
 </html>

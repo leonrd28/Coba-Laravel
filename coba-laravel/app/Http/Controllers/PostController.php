@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\models\Post;
+use App\Models\User;
 
 class PostController extends Controller
 {
-    public function index() 
+    public function index()
     {
         return view('posts', [
             "title" => "posts",
@@ -15,11 +16,12 @@ class PostController extends Controller
         ]);
     }
 
-    public function show($slug){
+    public function show(Post $post)
+    {
         return view('post', [
             "title" => "Single Post",
-            "post" => Post::find($slug)
+            "active" => 'posts',
+            "post" => $post
         ]);
     }
-
 }

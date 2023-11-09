@@ -33,7 +33,7 @@ Route::get('/about', function () {
         "active" => 'about',
         "name" => "leonardo yemi",
         "email" => "leonardoyemi@gmail.com",
-        "image" => "github.jpg"
+        "image" => "leonrd.jpg"
     ]);
 });
 

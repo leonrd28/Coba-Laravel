@@ -56,7 +56,7 @@
             </small>
             </p>
             <p class="card-text">{{ $post->title }}</p>
-            <a href="/posts/{{ $post->slug }}" class="btn btn-primary">Read More..</a>
+            <a href="/posts/{{ $post->slug }}" class="btn btn-primary">Read More...</a>
             </div>
          </div> 
       </div>
